@@ -507,8 +507,7 @@ def amazon_test0():
     #txt_df.apply()#np.where(txt_df['keywords'] in new_adding_searchterm['keywords'].values.tolist(),True,False)
     print(txt_df)
     
-    
-    
+
 amazon_test()
 
 def test():
