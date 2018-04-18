@@ -505,8 +505,6 @@ def amazon_test0():
     txt_df['keywords'] = txt_df['Ad Group Name'] + txt_df['space'] + txt_df['Customer Search Term']
     txt_df['new'] = txt_df['keywords'].isin(new_adding_searchterm['keywords'].values.tolist())
     #txt_df.apply()#np.where(txt_df['keywords'] in new_adding_searchterm['keywords'].values.tolist(),True,False)
-    
-    
     print(txt_df)
     
     
